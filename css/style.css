@@ -1,0 +1,676 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Assistant,-apple-system,BlinkMacSystemFont,segoe UI,
+    Roboto,Helvetial,Arial,sans-serif;
+    box-sizing: border-box;
+}
+/*Header Start*/
+header{
+    background-color: #735df1;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-betwee;
+    border-bottom: 1px solid #a89a9a;
+    
+}
+.logo-container{
+    margin-left: 4%;
+    margin: 10px;
+}
+.techtoglobe{
+    width: 180px;
+    height: 40px;
+    
+}
+nav a{
+    text-decoration: none;
+}
+.nav_bar{
+    display: flex;
+    min-width: 500px;
+    justify-content: space-between;
+}
+.nav_bar a{
+    font-size: 14px;
+    letter-spacing: .3px;
+    color: #282c3f;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 30px 0;
+    color: #f5f5f6;
+}
+.nav_bar a:hover{
+    border-bottom: 2px solid #c2264d;
+    height: 70px;
+}
+.search_bar{
+    height: 40px;
+    min-width: 200px;
+    width: 30%;
+    display: flex;
+    align-items: center;
+}
+.search_icon{
+    box-sizing: content-box;
+    height: 20px;
+    padding: 10px;
+    margin-left: 20px;
+    color: #696e79;
+    background-color: #f5f5f6;
+    font-weight: 300;
+    border-radius: 4px 0 0 4px;
+}
+.search_input{
+    color: #696e79;
+    background-color: #f5f5f6;
+    flex-grow: 1;
+    height: 40px;
+    border: 0px;
+    border-radius: 0 4px 4px 0;
+}
+div a{
+    text-decoration: none;
+    color: #f5f5f6;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.div-a{
+    margin-left: 60px;
+    background-color: #e0184a;
+    padding: 5px;
+    border: 2px solid goldenrod;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+.div-a a:hover{
+    margin-left: 5px;    
+}
+/*Header End*/
+
+/*Main Section Start*/
+/*Box 1 Start*/
+.banner-container{
+    margin: 0px;
+}
+.banner_image{
+     width: 100%;
+}
+.row-container{
+    display: flex;
+    justify-content: center;
+
+}
+.box{
+    width: 400px;
+    height: 150px;
+    background-color:#fff;
+    border: 2px solid #e6d2d2;
+    border-radius: 20px;
+    box-sizing: border-box;
+    border-style: hidden;
+}
+.row-container :hover{
+    background-color: #cfc5e4d0;
+}
+#box1{
+    margin: 20px;
+}
+#box2{
+    margin: 20px;
+}
+#box3{
+    margin: 20px;
+}
+.box-img{
+    margin-top: 30px;
+    width: 70px;
+    margin-left: 10px;
+    border: 0px solid white;
+}
+.paragraph{
+    margin-top: -70px;
+    margin-left: 100px;
+}
+/*Box 1 End*/
+/*<!--About Section Start-->*/
+
+.aboutus{
+    margin-left: 30px;
+    color: rgb(216, 71, 71);
+    font-size: 20px;
+}
+.category-heading{
+    color: #3e4152;
+    letter-spacing: .15em;
+    font-size: .8cm;
+    margin: 50px 0 10px 30px;
+    max-height: 5em;
+    font-weight: 700;
+    letter-spacing: normal;
+}
+.mid-head{
+    display: flex;
+}
+.banner-about{
+    width: 500px;
+    border-style: none;
+}
+.text-para{
+    color: black;
+    font-size: 20px;
+    font-weight: normal;
+    letter-spacing: normal;
+    line-height: 30px;
+}
+.box-project{
+    display: flex;
+    margin-left: 30px;
+}
+.box1-project{
+    width: 300px;
+    height: 100px;
+    font-weight: 700;
+}
+.arrow-right{
+    display: flex;
+    margin-left: 30px;
+}
+.button-arrow-right{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(235, 7, 45);
+    border-radius: 30px;
+    border-style: none;
+}
+div h4{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+/*<!--About Section End-->*/
+
+/*Mid Section Start*/
+.mid-section{
+    background-image: url("/image/Banner/achievement.webp");
+    color: #e6d2d2;
+    background-repeat: no-repeat;
+    display: flex;
+    margin-top: 50px;
+}
+.Section{
+    width: 250px;
+    height: 300px;
+    margin: 30px;
+    
+    text-align: center;
+    margin-top: 50px;
+}
+.Section-icon{
+    width: 100px;
+    height: 100px;
+    border-radius: 20pc;
+    background-color: rgb(202, 42, 42);
+    margin-top: 20px;
+    border-style: none;
+    
+}
+/*Mid Section End*/
+/*<!--Awards and Certifications Section Start-->*/
+
+.credentials{
+    color: rgb(202, 42, 42);
+    text-align: center;
+}
+#credentials{
+    text-align: center;
+}
+.awards-and-certifications-all{
+    display: flex;
+}
+.awards-images{
+    width: 250px;
+    height: 550px;
+    margin-top: 50px;
+    margin-left: 100px;
+    border-style: none;
+
+}
+.awards-and-certifications1{
+    display: flex;
+    justify-content: center;
+    
+}
+.awards{
+    margin-top: 40px;
+}
+.awards-img{
+    width: 150px;
+    margin: 10px;
+    border-style: none;
+    background-color: rgb(247, 238, 238);   
+}
+.awards-and-certifications2{
+    display: flex;
+    justify-content: center;
+}
+.awards-and-certifications3{
+    height: 200px;
+    width: 980px;
+    background-color: #145192;
+    border-radius: 90px;
+    margin-top: 40px;
+    margin-left: 10px;
+    display: flex;
+}
+.awards-and-img{
+    width: 100px;
+    margin-top: 45px;
+    margin-left: 50px;
+    border-style: none;
+}
+.awards-paragraph1{
+    color: white;
+    margin-top: 60px;
+    margin-left: 20px;
+}
+.awards-paragraph2{
+    color: white;
+    margin-top: 60px;
+    margin-left: 20px;
+}
+.awards-paragraph3{
+    color: white;
+    margin-top: 60px;
+    margin-left: 20px;
+}
+/*-------------*/
+.awards-and-certifications4{
+    width: 1345px;
+    height: 900px;
+    background-color: #145192;
+}
+.certifications-all{
+    display: flex;
+}
+.card{
+    width: 350px;
+    height: 400px;
+    margin-top: 40px;
+    margin-left: 70px;
+    border: 2px solid white;
+}
+.card-img{
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 50px;
+    border-style: none;
+    justify-content: center;
+}
+.card-heading{
+    color: rgb(226, 48, 48);
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.card-paragraph{
+    margin-top: 10px;
+    margin-left: 10px;
+    color: white;
+}
+.card-button{
+    margin-top: 20px;
+    margin-left: 10px;
+    padding: 6px;
+    border-radius: 20px;
+    border-style: none;
+}
+
+/*<!--Awards and Certifications Section End-->*/
+/*<!-- Our Client Section Start-->*/
+.our-client{
+    color: rgb(202, 42, 42);
+    text-align: center;
+}
+#our-client{
+    text-align: center;
+}
+.our-client-card{
+    display: flex;
+    margin-left: 170px;
+    margin-top: 30px;
+}
+.our-card{
+    width: 160px;
+    height: 100px;
+    margin-left: 10px;
+    background-color: #ffffff;
+    border: 1px solid gray;
+}
+.our-card-img{
+    width: 100px;
+    height: 60px;
+    margin-top: 20px;
+    margin-left: 30px;
+    border-style: none;
+}
+
+/*<!-- Our Client Section End-->*/
+/*<!--Case Studies Section Start-->*/
+.case-studies{
+    color: rgb(202, 42, 42);
+    text-align: center;
+    margin-top: 70px;
+}
+#case-studies{
+    text-align: center;
+    margin-top: 10px;
+}
+.case-studies-container{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 25px;
+}
+.case-container{
+    width: 300px;
+    height: 460px;
+    background-color: white;
+    margin: 10px;
+}
+.case-studies-img{
+    width: 250px;
+    margin-top: 10px;
+    margin-left: 20px;
+    border-style: none;
+}
+.case-heading{
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.case-paragraph{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.explore-button{
+    padding: 10px 40px 10px 40px;
+    margin-left: 600px;
+    margin-bottom: 10px;
+}
+/*<!--Case Studies Section End-->*/
+/*<!--Testimonials Section Start-->*/
+.testimonials-head{
+    text-align: center;
+    color: rgb(202, 42, 42);
+    margin-top: 60px;
+}
+#testimonials-head{
+    text-align: center;
+}
+.div-testimonials{
+    display: flex;
+    margin: 50px 20px 20px 20px;
+}
+.testimonials{
+    width: 350px;
+    height: 400px;
+    margin: 5px;
+    background-color: white;
+    border: 1px solid gray;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+.testimonials-img{
+    margin-left: 5px;
+    border-style: none;
+}
+.testimonials-icon1{
+    margin-left: 225px;
+    border-style: none;
+}
+.testimonials-head3{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.testimonials-div-icon{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.testimonials-icon2{
+    width: 20px;
+    border-style: none;
+}
+.div-testimonials-paragraph{
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+/*<!--Testimonials Section End-->*/
+/*<!--Our Portfolio Section Start-->*/
+.our-portfolio-head{
+    text-align: center;
+    color: rgb(202, 42, 42);
+    margin-top: 70px;
+}
+#our-portfolio-head{
+    text-align: center;
+    margin-top: 20px;
+}
+#our-portfolio-paragraph{
+    margin: 5px 200px 5px 200px;
+}
+.our-portfolio{
+    display: flex;
+    margin: 60px 150px 10px 150px;
+}
+.div-our-portfolio{
+    width: 500px;
+    height: 230px;
+    margin: 10px;
+    border: 1px solid gray;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+.div-our-portfolio-img{
+    height: 230px;
+    width: 500px;
+    border-style: none;
+}
+/*               */
+.our-portfolio2{
+    background-image: url("/images/form-banner.webp");
+    color: #e6d2d2;
+    background-repeat: no-repeat;
+    display: flex;
+    margin-top: 50px;
+    width: 1345px;
+    height: 670px;
+}
+.div-our-portfolio1{
+    height: 500px;
+    width: 460px;
+    background-color: white;
+    margin-top: 50px;
+    margin-left: 120px;
+    border-radius: 20px;
+}
+.div-our-portfolio1-head{
+    text-align: center;
+    color: rgb(27, 27, 27);
+    margin-top: 25px;
+}
+.div-div-our-portfolio1{
+    margin-top: 20px;
+    margin-left: 70px;
+}
+.input-box{
+    margin-top: 10px;
+    padding: 5px;
+    height: 40px;
+    width: 300px;
+}
+.text-area{
+    margin-top: 10px;
+}
+.submit-button{
+    height: 40px;
+    margin-top: 10px;
+    width: 320px;
+    background-color: #c01a22;
+    color: white;
+    font-weight: 700;
+}
+.submit-button:hover{
+    height: 35px;
+    margin-top: 10px;
+    width: 310px;
+    background-color: #522b2c;
+    color: white;
+    font-weight: 700;
+}
+.div-our-portfolio2{
+    height: 500px;
+    width: 460px;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-left: 120px;
+}
+.div-our-portfolio2-parahraph{
+    margin-top: 200px;
+    color: white;
+}
+.div-our-portfolio2-h2tag{
+    margin-top: 10px;
+    color: white;
+}
+/*<!--Our Portfolio Section End-->*/
+/*<!--Our Blogs Section Start-->*/
+.our-blogs-head{
+    text-align: center;
+    color: rgb(202, 42, 42);
+    margin-top: 40px;
+}
+#our-blogs-head-h1-tag{
+    text-align: center;
+    margin-top: 10px;
+}
+#our-blogs-head-paragraph{
+    margin-left: 150px;
+}
+.our-blogs-all{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 110px;
+    margin-bottom: 100px;    
+}
+.div-our-blogs{
+    height: 450px;
+    width: 350px;
+    background-color: rgb(238, 228, 228) ;
+    margin: 10px;
+    border-radius: 20px;
+}
+.div-our-blogs-img{
+    width: 300px;
+    margin: 20px;
+    border-style: none;
+}
+.div-our-blogs-h3-tag{
+    margin-left: 20px;
+}
+.div-our-blogs-paragraph{
+    margin-left: 20px;
+}
+/*<!--Our Blogs Section End-->*/
+/*Line Contry Section Start */
+hr{border: 1px solid black;}
+.contry-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.contry-box{
+    width: 400px;
+    height: 150px;
+    margin: 5px;
+    text-align: center;
+    background-color: white;
+    border: 2px solid #e6d2d2;
+    border-radius: 20px;
+    box-sizing: border-box;
+    border-style: hidden;
+}
+.contry-img{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-style: none;
+}
+div p{
+    margin-top: 10px;
+}
+
+/*Line Contry Section End*/
+
+/*Main Section End*/
+
+
+/*Footer Start*/
+.footer_container{
+    padding: 30px 0px 40px 0px;
+    background: #145192;
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer_column{
+    display: flex;
+    flex-direction: column; 
+}
+.footer_column h2{
+    color: rgb(245, 10, 10);
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+.footer_column a{
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    padding-bottom: 12px;
+}
+div input{
+    height: 30px;
+    width: 250px;
+    border: 2px solid gray;
+    box-sizing: border-box;
+    border-radius: 10px;
+    
+}
+.email_bar{
+    display: flex;
+}
+.email_input{
+    color: #696e79;
+    background-color: #f5f5f6;
+    height: 40px;
+    border: 0px;
+    border-radius:18px 0px 0px 18px; 
+}
+.email_icon{
+    box-sizing: content-box;
+    height: 20px;
+    padding: 10px;
+    background-color: #db212a;
+    border-radius: 0px 4px 4px 0px;
+}
+div img{
+    width: 40px;
+    border: 1px solid slateblue;
+    box-sizing: border-box;
+    border-radius: 10px;
+
+}
+.copyright{
+    color: black;
+    text-align: center;
+    padding: 15px;
+    font-size: 15px;
+}
+/*Footer End*/
